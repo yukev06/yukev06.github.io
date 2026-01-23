@@ -4,34 +4,711 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional portfolio showcasing equity research and analytical expertise">
-    <title>Kevin Yu - Portfolio</title>
+    <meta name="description"
+        content="Kevin Yu - Portfolio showcasing equity research, financial analysis, and data-driven investment insights">
+    <title>Kevin Yu - Equity Research & Financial Analysis Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts for Professional Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <main class="container">
-        <header class="hero">
-            <h1 class="name">Kevin Yu</h1>
-            <p class="headline">Equity Research &amp; Financial Projects</p>
-            <p class="value-proposition">
-                Delivering data-driven insights and comprehensive market analysis
-                to drive informed investment decisions.
-            </p>
-        </header>
+    <!-- ============================================
+         NAVIGATION BAR
+         Fixed navigation with smooth scroll links
+    ============================================ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">Kevin Yu</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#equity-research" class="nav-link">Research</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-        <nav class="cta-buttons" aria-label="Main navigation">
-            <a href="#resume" class="cta-button primary" aria-label="View my resume">
-                <span class="button-text">View Resume</span>
-            </a>
-            <a href="#projects" class="cta-button secondary" aria-label="View my projects">
-                <span class="button-text">Projects</span>
-            </a>
-            <a href="#equity-research" class="cta-button secondary" aria-label="View equity research">
-                <span class="button-text">Equity Research</span>
-            </a>
-        </nav>
+    <main>
+        <!-- ============================================
+             HERO SECTION
+             Main landing area with name and value proposition
+        ============================================ -->
+        <section class="hero" id="hero">
+            <div class="container">
+                <h1 class="name">Kevin Yu</h1>
+                <p class="headline">Equity Research &amp; Financial Analysis</p>
+                <p class="value-proposition">
+                    Delivering data-driven insights and comprehensive market analysis
+                    to drive informed investment decisions.
+                </p>
+                <nav class="cta-buttons" aria-label="Quick navigation">
+                    <a href="#resume" class="cta-button primary">
+                        <span class="button-text">View Resume</span>
+                    </a>
+                    <a href="#equity-research" class="cta-button secondary">
+                        <span class="button-text">Equity Research</span>
+                    </a>
+                </nav>
+            </div>
+        </section>
+
+        <!-- ============================================
+             ABOUT / SKILLS SECTION
+             Bio focused on analytical skills and skill categories
+             UPDATE: Replace placeholder text with your bio
+        ============================================ -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+
+                <!-- Bio - UPDATE THIS TEXT -->
+                <div class="about-content">
+                    <div class="bio">
+                        <p class="bio-text">
+                            I'm a finance professional with a passion for equity research and data-driven analysis.
+                            With a strong foundation in financial modeling, valuation, and market research, I combine
+                            analytical rigor with strategic thinking to uncover investment opportunities and deliver
+                            actionable insights.
+                        </p>
+                        <p class="bio-text">
+                            My approach emphasizes thorough due diligence, quantitative analysis, and clear
+                            communication
+                            of complex financial concepts. I'm committed to continuous learning and staying ahead of
+                            market trends to provide valuable perspectives for investment decision-making.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Skills Grid - UPDATE SKILL ITEMS AS NEEDED -->
+                <div class="skills-container">
+                    <h3 class="skills-heading">Core Competencies</h3>
+                    <div class="skills-grid">
+                        <!-- Finance Skills -->
+                        <div class="skill-category">
+                            <h4 class="skill-category-title">Finance</h4>
+                            <ul class="skill-list">
+                                <li>Financial Modeling</li>
+                                <li>Valuation (DCF, Comps, Precedents)</li>
+                                <li>Financial Statement Analysis</li>
+                                <li>M&A Analysis</li>
+                                <li>Capital Markets</li>
+                            </ul>
+                        </div>
+
+                        <!-- Equity Research Skills -->
+                        <div class="skill-category">
+                            <h4 class="skill-category-title">Equity Research</h4>
+                            <ul class="skill-list">
+                                <li>Industry Analysis</li>
+                                <li>Company Due Diligence</li>
+                                <li>Investment Thesis Development</li>
+                                <li>Risk Assessment</li>
+                                <li>Report Writing</li>
+                            </ul>
+                        </div>
+
+                        <!-- Data Analysis Skills -->
+                        <div class="skill-category">
+                            <h4 class="skill-category-title">Data Analysis</h4>
+                            <ul class="skill-list">
+                                <li>Quantitative Analysis</li>
+                                <li>Data Visualization</li>
+                                <li>Statistical Modeling</li>
+                                <li>Market Research</li>
+                                <li>Trend Analysis</li>
+                            </ul>
+                        </div>
+
+                        <!-- Tools -->
+                        <div class="skill-category">
+                            <h4 class="skill-category-title">Tools</h4>
+                            <ul class="skill-list">
+                                <li>Bloomberg Terminal</li>
+                                <li>Excel / VBA</li>
+                                <li>Capital IQ</li>
+                                <li>FactSet</li>
+                                <li>Tableau / Power BI</li>
+                            </ul>
+                        </div>
+
+                        <!-- Programming -->
+                        <div class="skill-category">
+                            <h4 class="skill-category-title">Programming</h4>
+                            <ul class="skill-list">
+                                <li>Python</li>
+                                <li>SQL</li>
+                                <li>R</li>
+                                <li>JavaScript</li>
+                                <li>VBA</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             PROJECTS SECTION
+             Card-based layout for projects
+             UPDATE: Add your actual projects
+        ============================================ -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-subtitle">Selected projects demonstrating analytical and technical capabilities</p>
+
+                <div class="projects-grid">
+                    <!-- Project Card 1 - UPDATE WITH YOUR PROJECT -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Stock Screening Algorithm</h3>
+                            <span class="project-date">2025</span>
+                        </div>
+                        <p class="project-description">
+                            Developed a quantitative stock screening tool that filters equities based on
+                            fundamental metrics, momentum indicators, and valuation ratios. Backtested
+                            against S&P 500 with 15% alpha generation.
+                        </p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Python</span>
+                            <span class="tool-tag">Pandas</span>
+                            <span class="tool-tag">yfinance</span>
+                            <span class="tool-tag">SQL</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <strong>Outcome:</strong> Identified 12 high-conviction picks with average
+                            return of 23% over 6 months.
+                        </div>
+                        <div class="project-links">
+                            <!-- UPDATE: Add your actual project links -->
+                            <a href="#" class="project-link">View Project →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 2 - UPDATE WITH YOUR PROJECT -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Portfolio Risk Dashboard</h3>
+                            <span class="project-date">2025</span>
+                        </div>
+                        <p class="project-description">
+                            Built an interactive dashboard for portfolio risk analysis featuring VaR
+                            calculations, correlation matrices, and scenario analysis. Integrated
+                            real-time market data for live monitoring.
+                        </p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Python</span>
+                            <span class="tool-tag">Streamlit</span>
+                            <span class="tool-tag">NumPy</span>
+                            <span class="tool-tag">Plotly</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <strong>Outcome:</strong> Reduced portfolio volatility by 18% through
+                            optimized asset allocation recommendations.
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 3 - UPDATE WITH YOUR PROJECT -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">DCF Valuation Model</h3>
+                            <span class="project-date">2024</span>
+                        </div>
+                        <p class="project-description">
+                            Created a comprehensive DCF valuation model in Excel with automated
+                            sensitivity analysis, scenario modeling, and comparable company analysis
+                            integration for tech sector valuations.
+                        </p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Excel</span>
+                            <span class="tool-tag">VBA</span>
+                            <span class="tool-tag">Financial Modeling</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <strong>Outcome:</strong> Model accuracy within 5% of actual transaction
+                            prices for 8 M&A deals analyzed.
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project →</a>
+                            <a href="#" class="project-link">Download Model →</a>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 4 - UPDATE WITH YOUR PROJECT -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Earnings Call Sentiment Analyzer</h3>
+                            <span class="project-date">2024</span>
+                        </div>
+                        <p class="project-description">
+                            NLP-based tool that analyzes earnings call transcripts to extract
+                            sentiment signals and management tone indicators. Correlated findings
+                            with subsequent stock performance.
+                        </p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Python</span>
+                            <span class="tool-tag">NLTK</span>
+                            <span class="tool-tag">Transformers</span>
+                            <span class="tool-tag">API Integration</span>
+                        </div>
+                        <div class="project-outcomes">
+                            <strong>Outcome:</strong> 72% accuracy in predicting directional
+                            post-earnings stock movement.
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project →</a>
+                            <a href="#" class="project-link">GitHub →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             EQUITY RESEARCH SECTION (CORE FEATURE)
+             Dedicated section for research reports
+             UPDATE: Add your actual research reports
+        ============================================ -->
+        <section class="section research-section" id="equity-research">
+            <div class="container">
+                <h2 class="section-title">Equity Research</h2>
+                <p class="section-subtitle">In-depth analysis and investment recommendations</p>
+
+                <!-- Filter Controls - Optional sector/ticker filtering -->
+                <div class="research-filters">
+                    <label for="sector-filter" class="filter-label">Filter by Sector:</label>
+                    <select id="sector-filter" class="filter-select">
+                        <option value="all">All Sectors</option>
+                        <option value="technology">Technology</option>
+                        <option value="healthcare">Healthcare</option>
+                        <option value="financials">Financials</option>
+                        <option value="consumer">Consumer</option>
+                        <option value="industrials">Industrials</option>
+                        <option value="energy">Energy</option>
+                    </select>
+                </div>
+
+                <!-- Research Reports Grid -->
+                <div class="research-grid" id="research-grid">
+                    <!-- Research Report 1 - UPDATE WITH YOUR RESEARCH -->
+                    <article class="research-card" data-sector="technology">
+                        <div class="research-header">
+                            <div class="ticker-badge">AAPL</div>
+                            <span class="research-date">January 2026</span>
+                        </div>
+                        <h3 class="research-company">Apple Inc.</h3>
+                        <div class="research-rating rating-buy">BUY</div>
+                        <p class="research-thesis">
+                            Strong Services growth trajectory combined with AI integration across
+                            product lineup positions Apple for continued margin expansion. iPhone
+                            upgrade cycle and Vision Pro adoption provide multiple growth catalysts.
+                        </p>
+                        <div class="research-metrics">
+                            <div class="metric">
+                                <span class="metric-label">Target Price</span>
+                                <span class="metric-value">$245</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Upside</span>
+                                <span class="metric-value">+18%</span>
+                            </div>
+                        </div>
+                        <div class="research-links">
+                            <!-- UPDATE: Replace with your actual PDF/Google Doc links -->
+                            <a href="assets/research/aapl-research.pdf" class="research-link primary" target="_blank">
+                                View Full Report (PDF)
+                            </a>
+                            <a href="assets/research/aapl-research.pdf" class="research-link secondary" download>
+                                Download PDF
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Research Report 2 - UPDATE WITH YOUR RESEARCH -->
+                    <article class="research-card" data-sector="technology">
+                        <div class="research-header">
+                            <div class="ticker-badge">MSFT</div>
+                            <span class="research-date">December 2025</span>
+                        </div>
+                        <h3 class="research-company">Microsoft Corporation</h3>
+                        <div class="research-rating rating-buy">BUY</div>
+                        <p class="research-thesis">
+                            Azure cloud growth acceleration and Copilot AI monetization create
+                            durable competitive advantages. Enterprise software dominance and
+                            gaming segment improvements support premium valuation multiple.
+                        </p>
+                        <div class="research-metrics">
+                            <div class="metric">
+                                <span class="metric-label">Target Price</span>
+                                <span class="metric-value">$480</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Upside</span>
+                                <span class="metric-value">+15%</span>
+                            </div>
+                        </div>
+                        <div class="research-links">
+                            <a href="assets/research/msft-research.pdf" class="research-link primary" target="_blank">
+                                View Full Report (PDF)
+                            </a>
+                            <a href="assets/research/msft-research.pdf" class="research-link secondary" download>
+                                Download PDF
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Research Report 3 - UPDATE WITH YOUR RESEARCH -->
+                    <article class="research-card" data-sector="healthcare">
+                        <div class="research-header">
+                            <div class="ticker-badge">UNH</div>
+                            <span class="research-date">November 2025</span>
+                        </div>
+                        <h3 class="research-company">UnitedHealth Group</h3>
+                        <div class="research-rating rating-hold">HOLD</div>
+                        <p class="research-thesis">
+                            Vertically integrated model provides defensive characteristics amid
+                            healthcare policy uncertainty. Optum Health growth offsets margin
+                            pressure in insurance segment. Regulatory risks warrant cautious stance.
+                        </p>
+                        <div class="research-metrics">
+                            <div class="metric">
+                                <span class="metric-label">Target Price</span>
+                                <span class="metric-value">$560</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Upside</span>
+                                <span class="metric-value">+5%</span>
+                            </div>
+                        </div>
+                        <div class="research-links">
+                            <a href="assets/research/unh-research.pdf" class="research-link primary" target="_blank">
+                                View Full Report (PDF)
+                            </a>
+                            <a href="assets/research/unh-research.pdf" class="research-link secondary" download>
+                                Download PDF
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Research Report 4 - UPDATE WITH YOUR RESEARCH -->
+                    <article class="research-card" data-sector="financials">
+                        <div class="research-header">
+                            <div class="ticker-badge">JPM</div>
+                            <span class="research-date">October 2025</span>
+                        </div>
+                        <h3 class="research-company">JPMorgan Chase & Co.</h3>
+                        <div class="research-rating rating-buy">BUY</div>
+                        <p class="research-thesis">
+                            Best-in-class banking franchise with diversified revenue streams and
+                            technology investments. Net interest income tailwinds from rate
+                            environment and market share gains in investment banking support thesis.
+                        </p>
+                        <div class="research-metrics">
+                            <div class="metric">
+                                <span class="metric-label">Target Price</span>
+                                <span class="metric-value">$225</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Upside</span>
+                                <span class="metric-value">+12%</span>
+                            </div>
+                        </div>
+                        <div class="research-links">
+                            <a href="assets/research/jpm-research.pdf" class="research-link primary" target="_blank">
+                                View Full Report (PDF)
+                            </a>
+                            <a href="assets/research/jpm-research.pdf" class="research-link secondary" download>
+                                Download PDF
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Research Report 5 - UPDATE WITH YOUR RESEARCH -->
+                    <article class="research-card" data-sector="consumer">
+                        <div class="research-header">
+                            <div class="ticker-badge">COST</div>
+                            <span class="research-date">September 2025</span>
+                        </div>
+                        <h3 class="research-company">Costco Wholesale Corporation</h3>
+                        <div class="research-rating rating-hold">HOLD</div>
+                        <p class="research-thesis">
+                            Premium business model with exceptional customer loyalty and membership
+                            renewal rates. Valuation reflects quality but limits near-term upside.
+                            E-commerce growth and international expansion provide long-term optionality.
+                        </p>
+                        <div class="research-metrics">
+                            <div class="metric">
+                                <span class="metric-label">Target Price</span>
+                                <span class="metric-value">$920</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Upside</span>
+                                <span class="metric-value">+3%</span>
+                            </div>
+                        </div>
+                        <div class="research-links">
+                            <a href="assets/research/cost-research.pdf" class="research-link primary" target="_blank">
+                                View Full Report (PDF)
+                            </a>
+                            <a href="assets/research/cost-research.pdf" class="research-link secondary" download>
+                                Download PDF
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Research Report 6 - UPDATE WITH YOUR RESEARCH -->
+                    <article class="research-card" data-sector="energy">
+                        <div class="research-header">
+                            <div class="ticker-badge">XOM</div>
+                            <span class="research-date">August 2025</span>
+                        </div>
+                        <h3 class="research-company">Exxon Mobil Corporation</h3>
+                        <div class="research-rating rating-sell">SELL</div>
+                        <p class="research-thesis">
+                            Energy transition headwinds and capital intensity concerns outweigh
+                            near-term commodity tailwinds. Pioneer acquisition integration risks
+                            and declining reserve replacement rate warrant underweight positioning.
+                        </p>
+                        <div class="research-metrics">
+                            <div class="metric">
+                                <span class="metric-label">Target Price</span>
+                                <span class="metric-value">$95</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Downside</span>
+                                <span class="metric-value">-10%</span>
+                            </div>
+                        </div>
+                        <div class="research-links">
+                            <a href="assets/research/xom-research.pdf" class="research-link primary" target="_blank">
+                                View Full Report (PDF)
+                            </a>
+                            <a href="assets/research/xom-research.pdf" class="research-link secondary" download>
+                                Download PDF
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             EXPERIENCE SECTION
+             Timeline of work experience and leadership
+             UPDATE: Add your actual experience
+        ============================================ -->
+        <section class="section experience-section" id="experience">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">Professional experience and leadership roles</p>
+
+                <div class="timeline">
+                    <!-- Experience Item 1 - UPDATE WITH YOUR EXPERIENCE -->
+                    <article class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3 class="timeline-title">Equity Research Analyst Intern</h3>
+                                <span class="timeline-company">Investment Firm Name</span>
+                            </div>
+                            <span class="timeline-date">Summer 2025</span>
+                            <ul class="timeline-details">
+                                <li>Conducted fundamental analysis on 15+ companies across Technology and Healthcare
+                                    sectors, developing investment theses presented to portfolio managers</li>
+                                <li>Built DCF and comparable company valuation models resulting in 3 actionable trade
+                                    recommendations with average return of 12%</li>
+                                <li>Authored weekly market commentary and sector reports distributed to firm's
+                                    institutional clients</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Experience Item 2 - UPDATE WITH YOUR EXPERIENCE -->
+                    <article class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3 class="timeline-title">Financial Analyst Intern</h3>
+                                <span class="timeline-company">Corporation Name</span>
+                            </div>
+                            <span class="timeline-date">Summer 2024</span>
+                            <ul class="timeline-details">
+                                <li>Developed automated financial reporting dashboard reducing monthly close process by
+                                    40%</li>
+                                <li>Performed variance analysis on $50M operating budget, identifying $2M in cost
+                                    optimization opportunities</li>
+                                <li>Created scenario analysis models for capital allocation decisions supporting CFO
+                                    presentations</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Experience Item 3 - UPDATE WITH YOUR EXPERIENCE -->
+                    <article class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3 class="timeline-title">Investment Club President</h3>
+                                <span class="timeline-company">University Name</span>
+                            </div>
+                            <span class="timeline-date">2023 - Present</span>
+                            <ul class="timeline-details">
+                                <li>Led 50+ member organization managing $100K student-run portfolio with 18% annual
+                                    return</li>
+                                <li>Organized weekly stock pitch presentations and educational workshops on financial
+                                    analysis</li>
+                                <li>Established partnerships with 5 financial institutions for recruiting and mentorship
+                                    programs</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Experience Item 4 - UPDATE WITH YOUR EXPERIENCE -->
+                    <article class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3 class="timeline-title">Research Assistant</h3>
+                                <span class="timeline-company">University Finance Department</span>
+                            </div>
+                            <span class="timeline-date">2022 - 2023</span>
+                            <ul class="timeline-details">
+                                <li>Assisted professor with empirical research on market microstructure and trading
+                                    behavior</li>
+                                <li>Cleaned and analyzed 10+ years of high-frequency trading data using Python and SQL
+                                </li>
+                                <li>Co-authored research paper submitted to Journal of Financial Economics</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             RESUME SECTION
+             Embedded PDF viewer with download option
+             UPDATE: Replace with your actual resume PDF
+        ============================================ -->
+        <section class="section resume-section" id="resume">
+            <div class="container">
+                <h2 class="section-title">Resume</h2>
+                <p class="section-subtitle">Download or view my complete resume</p>
+
+                <div class="resume-actions">
+                    <!-- UPDATE: Replace href with your actual resume file path -->
+                    <a href="assets/resume/kevin-yu-resume.pdf" class="cta-button primary" download>
+                        <span class="button-text">Download Resume (PDF)</span>
+                    </a>
+                    <a href="assets/resume/kevin-yu-resume.pdf" class="cta-button secondary" target="_blank">
+                        <span class="button-text">Open in New Tab</span>
+                    </a>
+                </div>
+
+                <!-- Embedded PDF Viewer -->
+                <div class="resume-viewer">
+                    <!-- UPDATE: Replace src with your actual resume file path -->
+                    <iframe src="assets/resume/kevin-yu-resume.pdf" class="resume-iframe" title="Kevin Yu Resume"
+                        loading="lazy">
+                        <p>Your browser does not support PDF viewing.
+                            <a href="assets/resume/kevin-yu-resume.pdf" download>Download the resume</a> instead.
+                        </p>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             CONTACT SECTION
+             Contact information and optional form
+             UPDATE: Add your actual contact info
+        ============================================ -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">I'm always open to discussing opportunities in finance and research</p>
+
+                <div class="contact-content">
+                    <!-- Contact Links -->
+                    <div class="contact-links">
+                        <!-- UPDATE: Replace with your actual email -->
+                        <a href="mailto:kevin.yu@email.com" class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-info">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">kevin.yu@email.com</span>
+                            </div>
+                        </a>
+
+                        <!-- UPDATE: Replace with your actual LinkedIn -->
+                        <a href="https://linkedin.com/in/kevinyu" class="contact-item" target="_blank" rel="noopener">
+                            <div class="contact-icon">💼</div>
+                            <div class="contact-info">
+                                <span class="contact-label">LinkedIn</span>
+                                <span class="contact-value">linkedin.com/in/kevinyu</span>
+                            </div>
+                        </a>
+
+                        <!-- UPDATE: Replace with your actual GitHub -->
+                        <a href="https://github.com/kevinyu" class="contact-item" target="_blank" rel="noopener">
+                            <div class="contact-icon">💻</div>
+                            <div class="contact-info">
+                                <span class="contact-label">GitHub</span>
+                                <span class="contact-value">github.com/kevinyu</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Contact Form (Optional) -->
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button primary form-submit">
+                            <span class="button-text">Send Message</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <!-- ============================================
+         FOOTER
+         Copyright and additional links
+    ============================================ -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2026 Kevin Yu. All rights reserved.</p>
+            <p class="footer-note">Built with attention to detail and a passion for finance.</p>
+        </div>
+    </footer>
 
     <script src="main.js"></script>
 </body>
